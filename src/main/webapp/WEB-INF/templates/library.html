@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+HELLO
+
+<div th:each="book : ${books}">
+<!--    <a th:text="${person.getName()}" th:href="@{/people/{id}(id=${person.getId()})}"></a>-->
+    <p th:text="${book}"></p>
+</div>
+</body>
+</html>
